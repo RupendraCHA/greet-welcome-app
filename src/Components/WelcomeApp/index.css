@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.subscribe-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: #1e293b;
+}
+.heading{
+    color:#f0bb30;
+    font-size:32px;
+    font-weight:700;
+    font-family: "Roboto";
+}
+@media screen and (min-width: 768px){
+    .heading{
+        font-size: 64px;
+    }
+}
+.description{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:700;
+    font-family: "Roboto";
+}
+@media screen and (min-width: 768px){
+    .description{
+        font-size: 24px;
+    }
+}
+button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size:12px;
+    font-weight:600;
+    color:#1e293b;
+    font-family:"Roboto";
+    padding:5px 8px;
+    cursor:pointer;
+}
+@media screen and (min-width: 768px){
+    button{
+        font-size: 16px;
+        padding:8px 12px;
+    }
+}
